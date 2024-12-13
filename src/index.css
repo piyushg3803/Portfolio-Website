@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@layer base{
+    html{
+        font-family: "Inter", sans-serif;
+    }
+}
+
+*{
+  scroll-behavior: smooth;
+}
+
+.progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: #c88de1;
+    transform-origin: 0%;
+  }
+
+  .box {
+    width: 200px;
+    height: 80px;
+    border-radius: 50px;
+    background: var(--accent);
+    cursor: pointer;
+  }
+  
