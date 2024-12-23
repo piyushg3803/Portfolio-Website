@@ -19,7 +19,7 @@ const About = () => {
           whileInView={{ y: 0, opacity: 1 }}
           initial={{ y: 50, opacity: 0 }}
           transition={{ duration: 0.8, delay: 0.4, ease: [0, 0.71, 0.2, 1.01] }}
-          className="text-white px-28 pt-12 text-left text-xl leading-8"
+          className="text-white px-48 pt-12 text-left text-xl leading-8"
         >
           I am Piyush Goswami a Freelancer Web Developer. Currently, I am a
           Computer Science Engineering student in Surat, India.  With a focus on creating modern, responsive, and scalable frontend websites, I aim to deliver seamless user experiences and robust web solutions to my clients.
