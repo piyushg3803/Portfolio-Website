@@ -27,7 +27,7 @@ const project = [
     id: 3,
     img: todo,
     title: "To-Do List",
-    link: "https://piyushg3803.github.io/To-do-list/",
+    link: "our-tasklist.netlify.app/",
     descritption:
       "A user-friendly to-do list application designed to help users organize tasks efficiently. Features include adding and deleting tasks, with a clean interface for seamless task management.",
   },
